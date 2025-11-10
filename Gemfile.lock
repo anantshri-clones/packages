@@ -114,7 +114,6 @@ GEM
     ffi (1.17.2-arm-linux-musl)
     ffi (1.17.2-arm64-darwin)
     ffi (1.17.2-x86_64-linux-gnu)
-    fuzzy_match (2.1.0)
     google-protobuf (4.33.0)
       bigdecimal
       rake (>= 13)
@@ -293,8 +292,7 @@ GEM
     simple-rss (1.3.3)
     sitemap_generator (6.3.0)
       builder (~> 3.0)
-    spdx (2.0.12)
-      fuzzy_match (~> 2.1)
+    spdx (4.1.5)
       treetop (~> 1.6)
     sprockets (4.2.2)
       concurrent-ruby (~> 1.0)
@@ -312,7 +310,7 @@ GEM
       citrus (~> 3.0, > 3.0)
       racc (~> 1.7)
     tomlrb (2.0.3)
-    treetop (1.6.15)
+    treetop (1.6.17)
       polyglot (~> 0.3)
     tsort (0.2.0)
     typhoeus (1.4.1)
@@ -402,7 +400,7 @@ DEPENDENCIES
   sidekiq-unique-jobs
   simple-rss
   sitemap_generator
-  spdx (= 2.0.12)
+  spdx (= 4.1.5)
   sprockets-rails
   toml-rb
   vers (~> 1.0)
@@ -455,7 +453,6 @@ CHECKSUMS
   ffi (1.17.2-arm-linux-musl) sha256=977dfb7f3a6381206dbda9bc441d9e1f9366bf189a634559c3b7c182c497aaa3
   ffi (1.17.2-arm64-darwin) sha256=54dd9789be1d30157782b8de42d8f887a3c3c345293b57ffb6b45b4d1165f813
   ffi (1.17.2-x86_64-linux-gnu) sha256=05d2026fc9dbb7cfd21a5934559f16293815b7ce0314846fee2ac8efbdb823ea
-  fuzzy_match (2.1.0) sha256=e97e25d0eaee48a5f77ed970d007c7b6ff3c6a6858303fead2d1986859204dfc
   google-protobuf (4.33.0) sha256=a4918b45bea5889c38fb82da83a5175209600f9c17fb1698be30d635696b3526
   google-protobuf (4.33.0-aarch64-linux-musl) sha256=a9440136805b61e2d22b3c89d68c852861bc523da721bb763b25ce896638cb83
   google-protobuf (4.33.0-arm64-darwin) sha256=def1bc3b176785cf9cc806db5d392ff6c66fcaa1ce1da7dbfa3c1f5f4613fb97
@@ -541,7 +538,7 @@ CHECKSUMS
   sidekiq-unique-jobs (8.0.11) sha256=63461bb943645d106f8e6eb10c773c231a53cf3781858158425c775484f1e181
   simple-rss (1.3.3) sha256=c96e09218473b29e49ede37e0bc17091ea178d47e69300b367e10d325381c18e
   sitemap_generator (6.3.0) sha256=1d803cbf03c44736bea05b9e3363d3523fec4e24f3abedad294d9c57cab994f3
-  spdx (2.0.12) sha256=c44ad4b9fbfa8138bfc1e8065fc7cf531207b63dccd2b63b0b61df7c5bdf80a6
+  spdx (4.1.5) sha256=e9e4cf58e8ccea488b5ad029dd7c0a4cdcdaf194ad14635a6b85e8bce513a83b
   sprockets (4.2.2) sha256=761e5a49f1c288704763f73139763564c845a8f856d52fba013458f8af1b59b1
   sprockets-rails (3.5.2) sha256=a9e88e6ce9f8c912d349aa5401509165ec42326baf9e942a85de4b76dbc4119e
   stringio (3.1.7) sha256=5b78b7cb242a315fb4fca61a8255d62ec438f58da2b90be66048546ade4507fa
@@ -550,7 +547,7 @@ CHECKSUMS
   timeout (0.4.4) sha256=f0f6f970104b82427cd990680f539b6bbb8b1e55efa913a55c6492935e4e0edb
   toml-rb (4.1.0) sha256=14456ec4549e4703881bf04b83a56f3264ef99884880092d83c98a2058d95846
   tomlrb (2.0.3) sha256=c2736acf24919f793334023a4ff396c0647d93fce702a73c9d348deaa815d4f7
-  treetop (1.6.15) sha256=4bb879f65c53877a04be3824a346f0de6ca92aa8890bfae613d1bdd9ad7f455b
+  treetop (1.6.17) sha256=7f52b5ffad949c974be091efb96d814a7c7a008e55e81d93bf267a73b62d2ca5
   tsort (0.2.0) sha256=9650a793f6859a43b6641671278f79cfead60ac714148aabe4e3f0060480089f
   typhoeus (1.4.1) sha256=1c17db8364bd45ab302dc61e460173c3e69835896be88a3df07c206d5c55ef7c
   tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b

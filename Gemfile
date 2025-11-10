@@ -37,7 +37,7 @@ gem 'bootstrap'
 gem 'rack-cors'
 gem 'rswag-api'
 gem 'rswag-ui'
-gem 'spdx', '2.0.12'
+gem 'spdx', '4.1.5'
 gem "semantic"
 gem "semantic_range"
 gem "sanitize-url"
